@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Rasa:wght@500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  color: #1f746a;
+}
+
+.bg-light {
+  background-color: #f5fffe;
+}
+
+.text-large {
+  font-size: 50px;
+  font-family: "Rasa";
+}
+
+.card {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 8.26286px 21.69px -5.16429px rgba(74, 128, 135, 0.1);
+          box-shadow: 0px 8.26286px 21.69px -5.16429px rgba(74, 128, 135, 0.1);
+}
+
+.course-hover {
+  padding: 20px;
+}
+
+.course-hover a {
+  text-decoration: unset;
+}
+
+.course-hover a * {
+  color: initial;
+  text-decoration: initial;
+}
+
+.course-hover img {
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.course-hover:hover img {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.card.robotics {
+  border-top: 4px solid #5ad2c5;
+}
+
+.card.robotics h2 {
+  color: #5ad2c5;
+}
+
+.card.robotics .course-hover:hover img {
+  background-color: rgba(90, 210, 197, 0.075) !important;
+}
+
+.card.software-dev {
+  border-top: 4px solid #ff6584;
+}
+
+.card.software-dev h2 {
+  color: #ff6584;
+}
+
+.card.software-dev .course-hover:hover img {
+  background-color: rgba(255, 101, 132, 0.075) !important;
+}
+
+.card.finance {
+  border-top: 4px solid purple;
+}
+
+.card.finance h2 {
+  color: purple;
+}
+
+.card.finance .course-hover:hover img {
+  background-color: rgba(128, 0, 128, 0.075) !important;
+}
+
+.card.ai {
+  border-top: 4px solid skyblue;
+}
+
+.card.ai h2 {
+  color: skyblue;
+}
+
+.card.ai .course-hover:hover img {
+  background-color: rgba(135, 206, 235, 0.075) !important;
+}
+/*# sourceMappingURL=theme.css.map */

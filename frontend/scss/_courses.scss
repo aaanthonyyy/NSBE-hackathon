@@ -1,0 +1,55 @@
+.course-hover {
+  padding: 20px;
+
+  a {
+    text-decoration: unset;
+    * {
+      color: initial;
+      text-decoration: initial;
+    }
+  }
+
+  img {
+    transition: 200ms ease-in;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.04);
+    }
+  }
+}
+
+@mixin borderColor($border-color) {
+  border-top: 4px solid $border-color;
+
+  h2 {
+    color: $border-color;
+  }
+
+  .course-hover:hover {
+    img {
+      background-color: rgba($color: $border-color, $alpha: 0.075) !important;
+    }
+  }
+}
+
+.card {
+  &.robotics {
+    @include borderColor(darken($primary-color, 20%));
+  }
+
+  &.software-dev {
+    @include borderColor($secondary-color);
+  }
+
+  &.finance {
+    @include borderColor(purple);
+  }
+
+  &.ai {
+    @include borderColor(skyblue);
+  }
+}
