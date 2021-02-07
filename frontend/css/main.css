@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #7c32ff;
+  background-color: #9DE2E7;
   color: #fff;
 }
 
 ::selection {
-  background-color: #7c32ff;
+  background-color: #9DE2E7;
   color: #fff;
 }
 
@@ -826,13 +826,13 @@ th {
 }
 
 .gradient-bg, .registration-area .course-form-section .btn, .course-details-left .course-list li .btn:hover, .right-contents .btn.enroll, .contact-page-area .form-area .btn, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .comment-form .btn, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#7c32ff), to(#c738d8));
-  background: linear-gradient(90deg, #7c32ff 0%, #c738d8 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#9DE2E7), to(#c738d8));
+  background: linear-gradient(90deg, #9DE2E7 0%, #c738d8 100%);
 }
 
 .gradient-bg-reverse, #search-input-box {
-  background: -webkit-gradient(linear, right top, left top, from(#7c32ff), to(#c738d8));
-  background: linear-gradient(270deg, #7c32ff 0%, #c738d8 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#9DE2E7), to(#c738d8));
+  background: linear-gradient(270deg, #9DE2E7 0%, #c738d8 100%);
 }
 
 .p1-gradient-color {
@@ -1754,7 +1754,7 @@ th {
 @media (max-width: 991px) {
   .registration-area {
     padding: 60px 0px;
-    background: #7c32ff;
+    background: #9DE2E7;
   }
 }
 
@@ -2011,7 +2011,7 @@ th {
   bottom: -1px;
   height: 1px;
   width: 74px;
-  background: #7c32ff;
+  background: #9DE2E7;
 }
 
 .course-details-left .course-list {
@@ -2133,7 +2133,7 @@ th {
 
 .right-contents .avg-review span {
   font-size: 18px;
-  color: #7c32ff;
+  color: #9DE2E7;
 }
 
 @media (max-width: 991px) {
@@ -2297,7 +2297,7 @@ th {
 .contact-page-area .address-wrap .single-contact-address .lnr {
   font-size: 20px;
   font-weight: 500;
-  color: #7c32ff;
+  color: #9DE2E7;
   margin-right: 30px;
 }
 
@@ -2312,16 +2312,16 @@ th {
 }
 
 .blog-home-banner h1 span {
-  color: #7c32ff;
+  color: #9DE2E7;
 }
 
 .blog-home-banner .primary-btn {
   color: #fff;
-  background: #7c32ff;
+  background: #9DE2E7;
 }
 
 .blog-home-banner .primary-btn:hover {
-  color: #7c32ff;
+  color: #9DE2E7;
   background: #fff;
 }
 
@@ -2435,7 +2435,7 @@ th {
 }
 
 .post-content-area .single-post .meta-details .tags li a:hover {
-  color: #7c32ff;
+  color: #9DE2E7;
 }
 
 @media (max-width: 1024px) {
@@ -2458,7 +2458,7 @@ th {
 .post-content-area .single-post .date a:hover,
 .post-content-area .single-post .view a:hover,
 .post-content-area .single-post .comments a:hover {
-  color: #7c32ff;
+  color: #9DE2E7;
 }
 
 .post-content-area .single-post .user-name .lnr,
@@ -2482,7 +2482,7 @@ th {
 }
 
 .post-content-area .single-post .primary-btn {
-  background: #7c32ff;
+  background: #9DE2E7;
   color: #222222 !important;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -2517,7 +2517,7 @@ th {
 }
 
 .posts-list .posts-title h3:hover {
-  color: #7c32ff;
+  color: #9DE2E7;
 }
 
 .blog-pagination {
@@ -2603,7 +2603,7 @@ th {
   width: 80%;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
-  background: #7c32ff;
+  background: #9DE2E7;
 }
 
 .widget-wrap .search-widget ::-webkit-input-placeholder {
@@ -2630,7 +2630,7 @@ th {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #7c32ff;
+  background: #9DE2E7;
   color: #fff;
   font-size: 17px;
   border: none;
@@ -2703,7 +2703,7 @@ th {
 }
 
 .widget-wrap .popular-post-widget .single-post-list .details h6:hover {
-  color: #7c32ff;
+  color: #9DE2E7;
 }
 
 .widget-wrap .popular-post-widget .single-post-list .details p {
@@ -2886,7 +2886,7 @@ th {
 }
 
 .single-post-area .social-links li a:hover {
-  color: #7c32ff;
+  color: #9DE2E7;
 }
 
 .single-post-area .quotes {
@@ -3319,8 +3319,8 @@ h6 {
 }
 
 .genric-btn.primary-border {
-  color: #7c32ff;
-  border: 1px solid #7c32ff;
+  color: #9DE2E7;
+  border: 1px solid #9DE2E7;
   background: #fff;
 }
 
@@ -3462,7 +3462,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #7c32ff;
+  border-left: 2px solid #9DE2E7;
 }
 
 .progress-table-wrap {
@@ -3600,7 +3600,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #7c32ff;
+  border: 3px solid #9DE2E7;
   background: #fff;
   top: 4px;
   left: 0;
@@ -3639,7 +3639,7 @@ h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #7c32ff;
+  color: #9DE2E7;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -3711,7 +3711,7 @@ h6 {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #7c32ff;
+  border: 1px solid #9DE2E7;
 }
 
 .single-input-accent {
@@ -3851,7 +3851,7 @@ h6 {
 }
 
 .primary-switch input:checked + label:before {
-  background: #7c32ff;
+  background: #9DE2E7;
 }
 
 .confirm-switch {
@@ -4196,12 +4196,12 @@ h6 {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #7c32ff;
+  color: #9DE2E7;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #7c32ff;
+  color: #9DE2E7;
   background: transparent;
 }
 
